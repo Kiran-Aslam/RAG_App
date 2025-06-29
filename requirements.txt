@@ -1,0 +1,6 @@
+gradio
+faiss-cpu
+PyPDF2
+sentence-transformers
+scikit-learn
+groq
