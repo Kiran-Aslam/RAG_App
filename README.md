@@ -7,36 +7,36 @@ A powerful **RAG (Retrieval-Augmented Generation)** application that lets you up
 
 ---
 
-## 💡 Features
+##  Features
 
-✅ Upload any PDF  
-✅ Split and embed content using SentenceTransformer  
-✅ Search relevant chunks with FAISS vector similarity  
-✅ Generate responses using LLaMA-3 via Groq API  
-✅ Simple and clean **Gradio UI**  
-✅ Deployed on Hugging Face Spaces  
-
----
-
-## 🧠 How It Works
-
-1. 📄 **Upload PDF** — Parses and extracts text using `PyPDF2`  
-2. 🔍 **Chunking** — Splits text into overlapping sections  
-3. 🧬 **Embeddings** — Uses `MiniLM-L6-v2` from `sentence-transformers`  
-4. 📚 **Indexing** — Stores embeddings in a FAISS index  
-5. ❓ **Ask a Question** — Your question is converted to an embedding  
-6. 🧠 **Retrieval + Generation** — Top chunks retrieved & passed to Groq LLaMA-3 for response
+ Upload any PDF  
+ Split and embed content using SentenceTransformer  
+ Search relevant chunks with FAISS vector similarity  
+ Generate responses using LLaMA-3 via Groq API  
+ Simple and clean **Gradio UI**  
+ Deployed on Hugging Face Spaces  
 
 ---
 
-## 🚀 Getting Started
+##  How It Works
 
-### 🛠 Requirements
+1.  **Upload PDF** — Parses and extracts text using `PyPDF2`  
+2.  **Chunking** — Splits text into overlapping sections  
+3.  **Embeddings** — Uses `MiniLM-L6-v2` from `sentence-transformers`  
+4.  **Indexing** — Stores embeddings in a FAISS index  
+5.  **Ask a Question** — Your question is converted to an embedding  
+6.  **Retrieval + Generation** — Top chunks retrieved & passed to Groq LLaMA-3 for response
+
+---
+
+##  Getting Started
+
+###  Requirements
 
 - Python 3.9+
 - Groq API Key (get from [Groq Cloud](https://console.groq.com/))
 
-### 📦 Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
